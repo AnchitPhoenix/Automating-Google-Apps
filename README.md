@@ -9,5 +9,7 @@
 - Store the list of files/folders in a new variable like "files" or "folders"
 - Use the ```addEditor()``` method to give "Editor" access to the new owner
 - Transfer the files/folders ownership using ```setOwner()``` method
+- Send a confirmation mail to old-owner if the transfer is complete
+- Create a trigger to auto-execute the script every hour (to bypass 30-minute script timeouts)
 
 
